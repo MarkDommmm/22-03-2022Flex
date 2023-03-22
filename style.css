@@ -28,8 +28,14 @@ body {
     margin-right: 200px;
 
 }
+.header a{
+    text-decoration:none;
+}
 .header h5{
     padding: 13px;
+    color:#fff;
+    padding: 13px 10px 11px 10px;
+
    
 
 }
@@ -118,6 +124,7 @@ h1 {
     margin: 40px 150px;
     width: 600px;
     display: flex;
+    text-align: left;
 
 }
 
@@ -189,4 +196,13 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.aress-head3 {
+    flex-grow: 0;
+}
+.aress-head2 {
+    flex-grow: 102;
+}
+.aress-head1 {
+    flex-grow: 194;
 }
