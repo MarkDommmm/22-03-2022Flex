@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(/assets/img/img_5terre_wide.jpg)center;
+    background-size:cover;
+    object-fit: cover;
+}
+.header h5:hover{
+    background-color:red;
+    display: inline;
+    color: #fff;
+}
+.header{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    height: 40px;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.header h3{
+    margin-right: 200px;
+
+}
+.header h5{
+    padding: 13px;
+   
+
+}
+.container {
+    width: 900px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.avatar {
+    width: 120px;
+    transform: translateY(-22px);
+    border-radius: 0 0 50% 40%;
+}
+
+.img-1 {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #000;
+    border-radius: 50%;
+    margin: auto;
+    background-color: aliceblue;
+
+}
+
+.heading {
+    width: 100%;
+    background-color: aquamarine;
+    padding: 40px;
+
+
+}
+
+.ti-star {
+    font-size: 25px;
+
+}
+
+.ti-layout-line-solid {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+
+
+
+/* Phần 6 ảnh */
+.side{
+    padding: 40px;
+    margin-top: 40px;
+    width: 900px;
+    background-color: aliceblue;
+}
+.container-img1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+.container-img{
+     
+}
+.img-content{
+    width: 250px;
+    margin: 20px 0;
+    border-radius: 50px;
+
+}
+.content {
+    margin-top: 40px;
+    background-color: aquamarine;
+    padding: 40px 0;
+
+}
+
+.content-text {
+    margin: 40px 150px;
+    width: 600px;
+    display: flex;
+
+}
+
+.load {
+    border: 1px solid #000;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 40px 80px;
+    background-color: #fff;
+    width: 900px;
+
+}
+
+form {
+    text-align: start;
+    padding-left: 50px;
+}
+
+input {
+    border: hidden;
+    border-bottom: 1px solid #f3eded;
+    width: 500px;
+
+}
+
+.form-label {
+    padding: 20px 0;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    border: hidden;
+}
+
+.address {
+    margin-top: 40px;
+    width: 900px;
+    background-color: rebeccapurple;
+    padding: 40px 80px;
+
+}
+
+.aress1 {
+    display: flex;
+    justify-content:space-between;
+   
+
+}
+.aress1 h2{
+    text-transform:uppercase;
+    font-size: 20px;
+}
+.aress-head3 span{
+    color: blue;
+
+}
+.copyright{
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
